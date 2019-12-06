@@ -14,10 +14,10 @@
             <div class="col-12 profileOptions p-0">
                 <ul class="nav " id="myTab" role="tablist">                    
                     <li class="nav-item col-2">
-                        <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">About</a>
+                        <a class="nav-link " id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">About</a>
                     </li>
                     <li class="nav-item col-2">
-                        <a class="nav-link" id="followers-tab" data-toggle="tab" href="#followers" role="tab" aria-controls="followers" aria-selected="false">Followers</a>
+                        <a class="nav-link active" id="followers-tab" data-toggle="tab" href="#followers" role="tab" aria-controls="followers" aria-selected="false">Followers</a>
                     </li>
 
                     <li class="nav-item proDetail col-4">
@@ -49,7 +49,7 @@
         </div>
         <div class="col">
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+                <div class="tab-pane fade " id="about" role="tabpanel" aria-labelledby="about-tab">
                     <div class="row">
                         <div class="col-4 abtInfo p-0 mt-20">
                             <div class="card">
@@ -176,7 +176,7 @@
                     </div>
                 </div>
                 <!-- <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">...</div> -->
-                <div class="tab-pane fade " id="followers" role="tabpanel" aria-labelledby="followers-tab">
+                <div class="tab-pane fade show active" id="followers" role="tabpanel" aria-labelledby="followers-tab">
                     <div class="row">
                         <div class="col-12 searchFollowers">
                             <div class="row">

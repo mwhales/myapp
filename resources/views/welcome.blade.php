@@ -183,6 +183,61 @@
         .col-12.links {
             padding-top: 20px;
         }
+
+        /* // Small devices (landscape phones, 576px and up) */
+        @media (max-width: 576px) {
+            .launchSearch i.fa.fa-search {
+                font-size: 12px;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 0px;
+                top: 18px;
+            }
+
+            .launcherLogo {
+                height: 45px;
+                padding-bottom: 20px;
+                margin-top: 45px;
+            }
+
+            .title {
+                font-size: 15px;
+                margin-bottom: 25px !important;
+            }
+
+            .links {
+                padding-top: 15px;
+            }
+
+            .links>a {
+                padding: 0 20px;
+                font-size: 14px;
+            }
+
+            .langLinks a {
+                padding: 0px 12px;
+                font-size: 12px;
+            }
+
+            .launchSearch input {
+                height: 25px;
+            }
+
+            .col-12.links {
+                padding-top: 20px;
+            }
+        }
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {}
+
+        /* // Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {}
+
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {}
     </style>
 </head>
 
