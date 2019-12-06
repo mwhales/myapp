@@ -57,7 +57,7 @@
         }
 
         .title {
-            font-size: 45px;
+            font-size: 35px;
         }
 
         .title span {
@@ -153,7 +153,7 @@
         }
 
         .launcherLogo {
-            height: 100px;
+            height: 85px;
             padding-bottom: 30px;
         }
 
@@ -161,12 +161,12 @@
             position: relative;
             float: none;
             margin: 0 auto;
-            width: 60%;
+            width: 85%;
         }
 
         .launchSearch input {
             width: 100%;
-            height: 40px;
+            height: 33px;
             background-color: #ffffff4a;
             border-radius: 20px;
             border: none;
@@ -175,7 +175,7 @@
         .launchSearch i.fa.fa-search {
             position: absolute;
             left: 15px;
-            top: 12px;
+            top: 6px;
             font-size: 20px;
             color: #d0cc8e;
         }
