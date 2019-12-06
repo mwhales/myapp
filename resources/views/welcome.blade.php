@@ -153,7 +153,7 @@
         }
 
         .launcherLogo {
-            height: 100px;
+            height: 85px;
             padding-bottom: 30px;
         }
 
