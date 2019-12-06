@@ -58,6 +58,7 @@
 
         .title {
             font-size: 35px;
+            margin-bottom: 45px !important;
         }
 
         .title span {
@@ -71,9 +72,9 @@
 
         .links>a {
             color: #fff;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
+            padding: 0 39px;
+            font-size: 19px;
+            /* font-weight: 600; */
             letter-spacing: .1rem;
             text-decoration: none;
         }
@@ -181,7 +182,7 @@
         }
 
         .col-12.links {
-            padding-top: 20px;
+            padding-top: 40px;
         }
     </style>
 </head>
