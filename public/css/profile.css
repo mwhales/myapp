@@ -232,20 +232,38 @@ ul.abtSocial {
     background-color: #f6a22b;
 }
 .fay3Searchform input, .fay3Searchform input:focus {
-    color: #fff;
+    background-color: #fff;
     width: 400px !important;
-    background: transparent;
-    border-radius: 0px;
-  }
+    border-radius: 20px;
+}
   #fay3Navbar a.nav-link {
     color: #fff;
   }
   .fay3Searchform .btn {
-    color: #fff;
+    color: #000;
+    position: absolute;
+    right: 7px;
+    background-color: #eee;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.flcard {
+    margin-bottom: 60px;
+}
+.fay3Searchform {
+    position: relative;
 }
 a#navbarDropdown {
     color: #fff;
 }
 .proDetail.col-4 {
     text-align: center;
+}
+@media (max-width: 768px) {
+    .flSearch{
+        float: none;
+    }
+    ul#myTab {
+        padding: 10PX;
+    }
 }

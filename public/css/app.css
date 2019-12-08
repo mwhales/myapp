@@ -13,7 +13,16 @@ img.fayLogo {
   max-height: 50px;
 }
 .custom-dark{
-  background-color: #0d71c1;
+  background-color: #28a9e0;
+}
+img.proThumb {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 11px;
+  margin-top: 3px;
+  vertical-align: middle;
 }
 .loginDropDown {
   padding: 0px !important;

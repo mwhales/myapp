@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&display=swap" rel="stylesheet">
 <link href="{{ asset('css/profile.css') }}" rel="stylesheet">
 <div class="container profileCont">
@@ -178,12 +178,12 @@
                 <!-- <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">...</div> -->
                 <div class="tab-pane fade show active" id="followers" role="tabpanel" aria-labelledby="followers-tab">
                     <div class="row">
-                        <div class="col-12 searchFollowers">
+                        <div class="col-lg-12 searchFollowers">
                             <div class="row">
-                                <div class="col-6 numFollow">
+                                <div class="col-lg-6 col-xs-12 numFollow">
                                     You're following (100)
                                 </div>
-                                <div class="col-6">
+                                <div class="col-lg-6 col-xs-12">
                                     <form class=" flSearch form-inline pull-right">
                                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                                         <button class="btn  my-2 my-sm-0" type="submit">
@@ -198,7 +198,7 @@
                         </div>
                     </div>
                     <div class="row followerList">
-                        <div class="col-3 pt-0">
+                        <div class="col-lg-3 flcard col-xs-12 pt-0">
                             <div class="card">
                                 <div class="cardCover">
                                     <img class="card-img-top" src="/img/profile/friend1.jpg" alt="Card image cap">
@@ -244,7 +244,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 pt-0">
+                        <div class="col-lg-3 flcard col-xs-12 pt-0">
                             <div class="card">
                                 <div class="cardCover">
                                     <img class="card-img-top" src="/img/profile/friend2.jpg" alt="Card image cap">
@@ -290,7 +290,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 pt-0">
+                        <div class="col-lg-3 flcard col-xs-12  pt-0">
                             <div class="card">
                                 <div class="cardCover">
                                     <img class="card-img-top" src="/img/profile/friend3.jpg" alt="Card image cap">
@@ -336,7 +336,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 pt-0">
+                        <div class="col-lg-3 flcard col-xs-12  pt-0">
                             <div class="card">
                                 <div class="cardCover">
                                     <img class="card-img-top" src="/img/profile/friend4.jpg" alt="Card image cap">
@@ -382,7 +382,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 pt-0">
+                        <div class="col-lg-3 flcard col-xs-12  pt-0">
                             <div class="card">
                                 <div class="cardCover">
                                     <img class="card-img-top" src="/img/profile/friend5.jpg" alt="Card image cap">
@@ -428,7 +428,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 pt-0">
+                        <div class="col-lg-3 flcard col-xs-12  pt-0">
                             <div class="card">
                                 <div class="cardCover">
                                     <img class="card-img-top" src="/img/profile/friend6.jpg" alt="Card image cap">
@@ -474,7 +474,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 pt-0">
+                        <div class="col-lg-3 flcard col-xs-12  pt-0">
                             <div class="card">
                                 <div class="cardCover">
                                     <img class="card-img-top" src="/img/profile/friend7.jpg" alt="Card image cap">
@@ -520,7 +520,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 pt-0">
+                        <div class="col-lg-3 flcard col-xs-12  pt-0">
                             <div class="card">
                                 <div class="cardCover">
                                     <img class="card-img-top" src="/img/profile/friend8.jpg" alt="Card image cap">

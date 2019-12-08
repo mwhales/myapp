@@ -17,6 +17,8 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -39,7 +41,7 @@
                     </ul>
                     <form class="form-inline fay3Searchform my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search">
-                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </form>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,26 +64,27 @@
                         @endif
                         @else
                         <li class="nav-item dropdown">
+                            <img class="proThumb" src="/img/profile/profile-pic.jpg" alt="">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right loginDropDown" aria-labelledby="navbarDropdown">
                                 <div class="card">
-                                    <div class="cardImage">                                        
-                                    <img class="card-img-top" src="/img/profile/dp-cover.jpg" alt="Card image cap">
-                                    <img  src="/img/profile/profile-pic.jpg" alt="" class="dropProfile">
+                                    <div class="cardImage">
+                                        <img class="card-img-top" src="/img/profile/dp-cover.jpg" alt="Card image cap">
+                                        <img src="/img/profile/profile-pic.jpg" alt="" class="dropProfile">
                                     </div>
                                     <div class="card-body">
 
                                         <ul class="loginDrop">
                                             <li>
-                                                <a href="#" >
+                                                <a href="#">
                                                     <i class="fa fa-user" aria-hidden="true"></i> Profile
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" >
+                                                <a href="#">
                                                     <i class="fa fa-cogs" aria-hidden="true"></i> Settings
                                                 </a>
                                             </li>
